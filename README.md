@@ -62,3 +62,13 @@ GitHub Actions의 **렌즈 추가·수정**은 공개 기본값 1~100번만 수�
 ## GitHub Pages 설정
 
 저장소의 **Settings → Pages → Build and deployment**에서 Source를 **GitHub Actions**로 선택합니다. `main` 브랜치가 변경되면 사이트가 자동 배포됩니다.
+
+## 저장소 분리
+
+렌즈 노트는 포트폴리오 저장소에서 독립한 프로젝트입니다. 기존 커밋 이력을 보존합니다.
+
+- 사이트: https://yhaaan.github.io/lens-notes/
+- 저장소: https://github.com/yhaaan/lens-notes
+- 포트폴리오: https://yhaaan.github.io/
+
+기존 사이트와 같은 도메인의 `localStorage` 키를 사용하므로 같은 브라우저에서는 개인 수정본을 이어서 사용할 수 있습니다. 기본 렌즈 변경은 이 저장소의 **Actions → 렌즈 추가·수정**에서 실행합니다.
